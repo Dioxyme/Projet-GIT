@@ -1,4 +1,5 @@
 *{
+<<<<<<< HEAD
     margin: 0;
     padding: 0;
     min-height: 50px;
@@ -59,4 +60,62 @@ img{
     height: 150px;
     border: 5px solid black;
     border-bottom: 5px solid black;
+=======
+        margin: 0;
+        padding: 0;
+}
+
+body{
+        background-color: lightpink;
+}
+
+header{
+        width: 100%;
+        min-height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+
+nav{
+        display: none;
+        width: 100%;
+        min-height: 100px;
+        display: flex;
+        justify-content: center;
+        justify-content: space-evenly;
+        text-align: center;
+        align-items: center;
+}
+    
+nav a{
+        text-decoration: none;
+        color: white;
+        background-color: rgb(240, 125, 63);
+        padding: 10%;
+        border-radius: 15px;
+}
+
+nav img{
+        width: 25%;
+        height: 25%;
+}
+
+main{
+        width: 100%;
+        min-height: 500px;
+        padding: 2% 0;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+}
+
+footer{
+        width: 100%;
+        min-height: 100px;
+        line-height: 6em;
+        justify-content: center;
+        text-align: center;
+        font-size: x-large;
+>>>>>>> eb87c59225c433f2728a26b29432f06d1d7e0fe0
 }

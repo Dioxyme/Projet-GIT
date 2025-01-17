@@ -1,0 +1,49 @@
+On initialise du répertoire git :
+
+git clone https://github.com/Dioxyme/Projet-GIT.git
+cd Projet-GIT
+mkdir css
+cd css
+nano style.css
+nano style_mobile.css
+git pull origin master
+git add style.css
+git commit -m "Modification css"
+git push origin master
+
+Création de la branche CSS :
+
+git branch "brancheCss"
+git push origin brancheCss
+git checkout brancheCSS
+nano style.css
+
+Fin de la branche CSS : 
+
+git pull origin brancheHTML1
+git checkout brancheHTML1
+nano style.css
+git add style.css
+git commit -m "Modification css v1"
+git push origin brancheHTML1
+git checkout master
+git merge brancheHTML1
+
+Après merge :
+
+git pull origin master
+
+Je récupère les modifications de Sébastien :
+git pull origin brancheV2
+
+Je récupère les modifications d'Aymerick :
+git pull origin brancheV3
+
+Modification v4 : 
+git checkout -b "brancheV4"
+nano style.css    #modification couleur background-color : lightgrey en lightpink
+git add -A
+git commit -m "Changement de couleur de fond"
+git push origin brancheV4
+
+On merge sur le master.

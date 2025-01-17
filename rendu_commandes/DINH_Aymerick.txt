@@ -1,0 +1,81 @@
+Initialisation du squelette du répertoire git:
+
+git clone https://github.com/Dioxyme/Projet-GIT.git
+cd Projet-Git/
+git config user.email "ainaryk66@gmail.com"
+git config user.name "Ai-nooba"
+mkdir images videos
+touch index.php
+git add -A
+git commit -m "Ajout index.php"
+git push origin master
+nano index.php
+git pull origin master
+
+Création de la première branche html :
+
+git checkout -b "brancheHTML1"
+git add -A
+git commit -m "Modif de base de l'index"
+git push origin brancheHTML1
+mv index.php index.html
+git add -A
+git commit -m "Changement de nom en index.html"
+git push origin brancheHTML1
+
+Fin de la première branche html :
+nano index.html
+git add -A
+git commit -m "Fin v1 html"
+git push origin brancheHTML1
+
+Dès le moment ou on a voulu merge la branche "brancheHTML1" sur le master, un problème de conflit de fichier est survenu. Les commandes qui suivent sont *seulement* celle qui nous ont permis de résoudre le bug.
+
+git checkout master
+git status		# Pour voir les fichiers qui posaient problème (style.css et style_mobile.css)
+git pull origin master		# Erreur de conflit donc j'ai supprimé le contenu de ces 2 fichiers (car leur contenu contenaient des lignes 				qui n'étaient pas censé apparaitre), pour prendre le code depuis GitHub et coller le contenu sur mes fichiers 				en locaux, pour ensuite le push sur le GitHub
+nano css/style.css
+nano css/style_mobile.css
+git status
+git add -A
+git status
+git commit -m "Rectification bug css"
+git push origin master
+git status
+git merge brancheHTML1		# Déjà à jour
+
+Nouvelle branche depuis les modifications de Sébastien:
+
+git pull origin brancheV2
+nano index.html		# Modification pour faire le lien avec le fichier qui sera ajouté après
+mkdir pages
+cd pages
+nano a_propos.html		# Nouveau fichier
+git checkout -b "brancheV3"
+git add -A
+git commit -m "Ajout de la page 'a propos' + lien entre les pages sur l'index"
+git push origin brancheV3
+
+Eliot à fait ses modifications 
+Je modifie le readme :
+
+nano README.md
+git checkout brancheV4
+git add -A
+git commit -m "modification readme"
+git push origin brancheV4
+
+Je merge :
+
+git checkout master
+git merge brancheV4
+git add -A
+git commit -m "Merge depuis brancheV4"
+git push origin master
+
+J'ajoute le fichier txt des commandes au dépôt:
+
+cd rendu_commandes
+git add -A
+git commit -m "ajout fichier commande"
+git push origin master
