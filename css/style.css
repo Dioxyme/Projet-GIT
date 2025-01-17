@@ -33,6 +33,11 @@ nav a{
         border-radius: 15px;
 }
 
+nav img{
+        width: 25%;
+        height: 25%;
+}
+
 main{
         width: 100%;
         min-height: 500px;
