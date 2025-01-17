@@ -1,9 +1,62 @@
-*{ margin:0; padding: 0;
+*{
+    margin: 0;
+    padding: 0;
+    min-height: 50px;
+}
+header{
+    background: blue;
+    display: flex;
+}
+
+aside{
+    background: green;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+main{
+    background: red;
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+article{
+    background-color: yellow;
+    width: 30%;
+    text-align: center;
+    padding: 5em 0;
+    margin: 4% 0;
+    background-image: url(../image/fond-bandeau.png);
+}
+nav{
+    background: red;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+nav a{
+    text-decoration: none; color: purple;
 }
 body{
-width: 80%; 
-margin: auto;
+    background-image: url(../images/wp6879679.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: whitesmoke;
 }
-body{
-background-color : #f0f0f0;
+footer{
+    color: purple;
+    font-family: Arial Black, Helvetica, sans-serif;
+    text-decoration: underline;
+    
+}
+img{
+    width : 200px;
+    height: 150px;
+    border: 5px solid black;
+    border-bottom: 5px solid black;
 }
