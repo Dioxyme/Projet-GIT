@@ -13,58 +13,7 @@ header{
         display: flex;
         justify-content: center;
         align-items: center;
-*{
-        margin: 0;
-        padding: 0;
 }
-
-body{
-        background-color: lightgray;
-}
-
-header{
-        width: 100%;
-        min-height: 100px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-}
-nav{
-        display: none;
-        width: 100%;
-        min-height: 100px;
-        display: flex;
-        justify-content: center;
-        justify-content: space-evenly;
-        text-align: center;
-        align-items: center;
-}
-
-nav a{
-        text-decoration: none;
-        color: white;
-        background-color: rgb(240, 125, 63);
-        padding: 1%;
-        border-radius: 15px;
-}
-
-main{
-        width: 100%;
-        min-height: 500px;
-        padding: 2% 0;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-}
-
-footer{
-        width: 100%;
-        min-height: 100px;
-        line-height: 6em;
-        justify-content: center;
-        text-align: center;
-        font-size: x-large;
-}   
 nav{
         display: none;
         width: 100%;
