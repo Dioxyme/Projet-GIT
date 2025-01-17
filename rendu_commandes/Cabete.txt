@@ -1,0 +1,39 @@
+Commandes pour le projet GIT - Sébastien Cabete
+
+1) git clone https://github.com/Dioxyme/Projet-GIT.git
+
+2) nano style_mobile.css
+
+3) git config user.email "email" et git config user.name "username"
+
+4) git add style_mobile.css --> git commit -m "Ajout de body{} et main{}" --> git push origin master
+
+5) git checkout -b brancheMobile
+
+6) nano style_mobile.css
+
+7) git add style_mobile.css --> git commit -m "Ajout de nav{}" --> git push origin brancheMobile
+
+8) git checkout master
+
+9) nano README.md
+
+10) git pull origin master 
+
+11) git add README.md --> git commit -m "Ajout du README.md" --> git push origin master
+
+12) git pull origin brancheHTML1 --> git checkout brancheHTML1
+
+13) nano style_mobile.css et style.css
+
+14) git add -A --> git commit -m "Rectification de style.css et de style_mobile.css" --> git push origin brancheHTML1
+
+15) git branch -d brancheMobile
+
+16) git pull origin master
+
+17) git checkout -b brancheV2
+
+18) nano index.html 
+
+19) git add index.html --> git commit -m "Modification de index.html" --> git push origin brancheV2
