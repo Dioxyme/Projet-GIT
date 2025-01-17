@@ -37,3 +37,15 @@ Commandes pour le projet GIT - Sébastien Cabete
 18) nano index.html 
 
 19) git add index.html --> git commit -m "Modification de index.html" --> git push origin brancheV2
+
+20) mkdir rendu_commandes
+
+21) nano Cabete.txt
+
+22) git add rendu_commandes/Cabete.txt --> git commit -m "Ajout du dossier de rendu des commandes + rendu de Cabete.txt" --> git push origin master
+
+23) git pull origin master
+
+24) nano Cabete.txt (oubli de certaines commandes)
+
+25) git add rendu_commandes/Cabete.txt --> git commit -m "Modification de Cabete.txt" --> git push origin master
