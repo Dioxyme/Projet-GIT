@@ -1,5 +1,5 @@
 @media screen and (max-width: 550px){
-	*{
+   *{
         margin: 0;
         padding: 0;
     }
@@ -31,8 +31,13 @@
         text-decoration: none;
         color: white;
         background-color: rgb(240, 125, 63);
-        padding: 1%;
+        padding: 10%;
         border-radius: 15px;
+    }
+
+    nav img{
+        width: 25%;
+        height: 25%;
     }
 
     main{
