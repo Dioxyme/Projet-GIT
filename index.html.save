@@ -1,0 +1,37 @@
+<!doctype html>
+
+<html lang="fr-FR" dir="ltr">
+
+<head>
+
+<title>Top 5 Moyai</title>
+<meta name="description" content=">
+<meta name="author" content=">
+<meta charset="utf-8">
+<link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+<header>
+<nav>
+<a href="index.php">Accueil</a>
+<a href="#">Discussions</a>
+<a href="#">A propos</a>
+</nav>
+<h1><a href="index.php"><img src="images/logo.png" alt="logo">Top 5 Moyai</a></h1>
+<br>
+<p>Hello guys, today we have a list of top 5 MOOOYAAAIII</p>
+<h2>Numero 5 : moyai shower</h2>
+<p>https://www.youtube.com/watch?v=I_7pff2GUuY</p>
+<h2>Numero 4 : moyai sleep</h2>
+<phttps://www.youtube.com/shorts/3zqVFGl20_E></p>
+
+</header>
+
+<main></main>
+<aside></aside>
+<footer><p>Copyright 2025</p></footer>
+</body>
+</html>
