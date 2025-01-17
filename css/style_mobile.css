@@ -1,22 +1,20 @@
-@media screen and (max-width: 550px){
-   *{
+*{
         margin: 0;
         padding: 0;
-    }
+}
 
-    body{
+body{
         background-color: lightgray;
-    }
+}
 
-    header{
+header{
         width: 100%;
         min-height: 100px;
         display: flex;
         justify-content: center;
         align-items: center;
-    }
-
-    nav{
+}
+nav{
         display: none;
         width: 100%;
         min-height: 100px;
@@ -25,36 +23,35 @@
         justify-content: space-evenly;
         text-align: center;
         align-items: center;
-    }
-    
-    nav a{
+}
+
+nav a{
         text-decoration: none;
         color: white;
         background-color: rgb(240, 125, 63);
-        padding: 10%;
+        padding: 1%;
         border-radius: 15px;
-    }
+}
 
-    nav img{
+nav img{
         width: 25%;
         height: 25%;
-    }
+}
 
-    main{
+main{
         width: 100%;
         min-height: 500px;
         padding: 2% 0;
         justify-content: center;
         align-items: center;
         text-align: center;
-    }
+}
 
-    footer{
+footer{
         width: 100%;
         min-height: 100px;
         line-height: 6em;
         justify-content: center;
         text-align: center;
         font-size: x-large;
-    }
 }
